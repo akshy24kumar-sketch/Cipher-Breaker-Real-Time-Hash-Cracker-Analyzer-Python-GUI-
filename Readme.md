@@ -88,9 +88,7 @@ Built with **Tkinter**, featuring:
 ┣ 📜 README.md             # Project documentation
 ┣ 📜 output.txt            # Exported results (generated)
 ┣ 📁 Wordlist/             # Password wordlist (user provided)
-   ┗ 📜 default_wordlist_1
-   ┗ 📜 default_wordlist_2
-   ┗ 📜 default_wordlist_3
+    ┗ 📜 default_wordlist_1
 ┣ 📁 Images/
     ┗ 📜 Dashboard.png
     ┗ 📜 Live Progress.png
