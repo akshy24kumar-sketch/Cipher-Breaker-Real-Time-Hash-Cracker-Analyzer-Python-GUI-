@@ -81,7 +81,7 @@ Built with **Tkinter**, featuring:
 ## 📂 Project Structure
 
 ```id="projstruct"
-📦 Hash-Hunter
+📦 Cipher Breaker.py
 
 ┣ 📜 Cipher Breaker.py     # Main GUI application
 ┣ 📜 encrypted.txt         # Sample hash input
@@ -128,14 +128,16 @@ python Cipher Breaker.py
 ## 📸 Screenshots
 
 🖥️ Main Dashboard
-GUI Interface with hash input, controls, and logs
+
+![Dashboard](Images/Dashboard.png)
 
 🖥️ Live Progress
-Shows attempts, time, and cracking speed
+
+![Live Progress](Images/Live_Progress.png)
 
 🖥️ Results Table
-Displays cracked hashes and passwords
 
+![Results](Images/Results.png)
 ---
 
 ## 📈 Skills Demonstrated
