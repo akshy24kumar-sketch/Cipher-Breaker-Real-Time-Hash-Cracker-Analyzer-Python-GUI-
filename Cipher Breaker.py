@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # filename: Hash_Hunter.py
 """
-Hash_Hunter (GUI) - Final version with export + live stats
+Cipher Breaker (GUI) - Final version with export + live stats
 
 Supports automatic checking of:
  - MD5
@@ -224,7 +224,7 @@ class CrackerThread(threading.Thread):
 class App:
     def __init__(self, root):
         self.root = root
-        root.title("Hash_Hunter")
+        root.title("Cipher Breaker")
         root.geometry("860x640")
 
         frame = ttk.Frame(root, padding=8)
@@ -348,7 +348,7 @@ class App:
         self.stop_btn.config(state='normal')
         self.stop_event.clear()
         self.tree.delete(*self.tree.get_children())
-        self.log(f"Starting Hash_Hunter with {len(targets)} target(s)...")
+        self.log(f"Starting Cipher_Breaker with {len(targets)} target(s)...")
 
         self.thread = CrackerThread(
             targets=targets,

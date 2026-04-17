@@ -1,8 +1,8 @@
-# 🕵️‍♂️ Hash Hunter — Multi-Hash Password Cracking Tool
+# 🕵️‍♂️ Cipher Breaker — Multi-Hash Password Cracking Tool
 
 ## 📌 Project Overview
 
-**Hash Hunter** is a Python-based cybersecurity tool designed to crack and verify hashed passwords using multiple hashing algorithms. It provides a real-time, GUI-based environment to test password strength by comparing hashes against a wordlist.
+**Cipher Breaker** is a Python-based cybersecurity tool designed to crack and verify hashed passwords using multiple hashing algorithms. It provides a real-time, GUI-based environment to test password strength by comparing hashes against a wordlist.
 
 The application supports modern hashing techniques and includes live progress tracking, logging, and export functionality — making it ideal for learning, ethical hacking, and security testing.
 
@@ -83,7 +83,7 @@ Built with **Tkinter**, featuring:
 ```id="projstruct"
 📦 Hash-Hunter
 
-┣ 📜 Hash_Hunter.py        # Main GUI application
+┣ 📜 Cipher Breaker.py     # Main GUI application
 ┣ 📜 encrypted.txt         # Sample hash input
 ┣ 📜 README.md             # Project documentation
 ┣ 📜 output.txt            # Exported results (generated)
@@ -110,7 +110,7 @@ pip install bcrypt argon2-cffi
 ### 2️⃣ Run the Application
 
 ```bash id="run"
-python Hash_Hunter.py
+python Cipher Breaker.py
 ```
 
 ---
