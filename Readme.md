@@ -87,8 +87,6 @@ Built with **Tkinter**, featuring:
 ┣ 📜 encrypted.txt         # Sample hash input
 ┣ 📜 README.md             # Project documentation
 ┣ 📜 output.txt            # Exported results (generated)
-┣ 📁 Wordlist/             # Password wordlist (user provided)
-    ┗ 📜 default_wordlist_1
 ┣ 📁 Images/
     ┗ 📜 Dashboard.png
     ┗ 📜 Live Progress.png
